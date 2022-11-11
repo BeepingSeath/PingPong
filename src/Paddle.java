@@ -13,5 +13,20 @@ public Paddle(int x, int y, int w){
     this.y = y;
     this.width = w;
 }
+public void moveUp(){
+    y--;
+}
+public void moveDown(){
+    y++;
+}
+public int getX(){
+    return x;
+}
+public int getY(){
+    return y;
+}
+public int getWidth(){
+    return width;
+}
 
 }
